@@ -7,7 +7,6 @@ public:
                 cleanedString += tolower(c);
             }
         }
-
         int left = 0;
         int right = cleanedString.length() - 1;
         while (left <= right) {
